@@ -1,8 +1,10 @@
 
 import DipList from './DipList.js';
 import CandyList from './CandyList.js';
+import BookList from './BookList.js';
 import { dips } from './dips.js';
 import { candies } from './candies.js';
+import { books } from './books.js';
 import './App.css';
 // import your arrays here
 
