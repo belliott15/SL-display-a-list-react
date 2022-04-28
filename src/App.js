@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+
+import CandyList from './CandyList.js';
 import './App.css';
+import { candies } from './candies.js';
 // import your arrays here
 
 function App() {
   return (
-    <div className="App">
-        Render all your lists here. Pass the arrays as props.
+    <div>
+      <div className="App">
+        <CandyList candies={candies} />
+      </div>
     </div>
+    
   );
 }
 
