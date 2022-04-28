@@ -3,7 +3,7 @@ import BookItem from './BookItem.js';
 
 export default function BookList({ books }) {
   return (
-    <div>
+    <div className='book-list'>
       {books.map((book) => <BookItem key={book.id} {...book} />)}
     </div>
   );

@@ -3,16 +3,16 @@ import React from 'react';
 export default function BookItem({ title, author, publisher, year, synopsis }) {
   return (
     <div className="book-item">
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <p>published by {publisher} in {year}</p>
       <div>
         <div key={author.id}>
           <h3>{author.name}</h3>
-          <p>{author.birthday}</p>
-          <p>{author.isAlive}</p>
+          <p>DOB: {author.birthday}</p>
+          <p>Activity: {author.isAlive}</p>
         </div>
       </div>
-      <p>{synopsis}</p>
+      <p><b>Synopsis:</b> {synopsis}</p>
     </div>
   );
 }

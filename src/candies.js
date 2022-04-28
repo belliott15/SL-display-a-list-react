@@ -4,7 +4,7 @@ export const candies = [
     sweetness: 4,
     flavor: 'chocolate peanut butter',
     type: 'chocolate',
-    color: 'orange',
+    color: 'darkorange',
     id: 1
   },
   {
@@ -20,7 +20,7 @@ export const candies = [
     sweetness: 7,
     flavor: 'cherry',
     type: 'licorice',
-    color: 'blue',
+    color: 'red',
     id: 3
   },
   {
@@ -36,7 +36,7 @@ export const candies = [
     sweetness: 6,
     flavor: 'chocolate caramel',
     type: 'chocolate',
-    color: 'brown',
+    color: 'saddlebrown',
     id: 5
   },
 ];
